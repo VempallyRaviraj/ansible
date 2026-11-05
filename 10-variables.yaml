@@ -4,5 +4,4 @@
   tasks:
   - name: print the message
     debug:
-      msg: "Hello {{ personname }}
-    
+      msg: "Hello {{ person_name }}
