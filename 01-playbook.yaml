@@ -1,0 +1,6 @@
+- name: ping demo
+  hosts: localhost #targeting local host
+  connection: local #it will not expect credentials
+  tasks: #task=module=collections
+    - name: ping the host
+      ping:
