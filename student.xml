@@ -1,0 +1,19 @@
+<student>
+    <firstname>Raviraj</firstname>
+    <lastname>V</lastname>
+    <dob>2000-08-21</dob>
+    <addresses>
+        <address type=permanent>
+            <street>4801 san mateo blvd se</street>
+            <city>Albuquerque</city>
+            <state>NM</state>
+            <zip>87104</zip>
+        </address>
+        <address type=temporary>
+            <street>1234 main st</street>
+            <city>Albuquerque</city>
+            <state>NM</state>
+            <zip>87104</zip>
+        </address>
+    </addresses>
+</student>

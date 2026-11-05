@@ -1,0 +1,18 @@
+- first_name: "Raviraj"
+  last_name: "V"
+  date_of_birth: "2000-08-21"
+  addresses:                          #"-" is for list
+    - type: permanent
+      street: "4801 san mateo blvd se"
+      city: "Albuquerque"
+      state: "NM"
+      zip: "87104"
+    - type: temporary
+      street: "1234 main st"
+      city: "Albuquerque"
+      state: "NM"
+      zip: "87104"
+  skills:
+    OS: Linux
+    IDE: VS Code
+    CM: Ansible
