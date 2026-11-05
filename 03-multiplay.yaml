@@ -2,22 +2,22 @@
   hosts: local
   connection: local
   tasks:
-  -name: PLAY1 AND TASK1
-   debug:
+  - name: PLAY1 AND TASK1
+    debug:
       msg: "Hello World FROM PLAY-1 AND TASK1"
 
-  -name: PLAY-1 AND TASK2
-   debug:
+  - name: PLAY-1 AND TASK2
+    debug:
       msg: "Hello World FROM PLAY-1 AND TASK2"
 
 - name: PLAY-2
   hosts: local
   connection: local
   tasks:
-  -name: PLAY-2 AND TASK1
-   debug:
+  - name: PLAY-2 AND TASK1
+    debug:
       msg: "Hello World FROM PLAY-2 AND TASK1"
 
-  -name: PLAY-2 AND TASK2
-   debug:
+  - name: PLAY-2 AND TASK2
+    debug:
       msg: "Hello World FROM PLAY-2 AND TASK2"
