@@ -8,7 +8,7 @@
     debug:
       msg: "hi,i got {{ property }} of land"
 
-  - name :print the vars again
+  - name: print the vars again
     vars:
       property: "20 acres"
     debug:
