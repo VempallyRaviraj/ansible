@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    property: "100acres""
+    property: "100acres"
   tasks:
   - name: print the sentence using variables
     debug:
