@@ -13,3 +13,12 @@
   - name: print course information
     debug:
       msg: "Hello World, I am learning {{ course }} from {{ trainer }} for {{ duration }}."
+
+
+      #1.command line
+      #2.task
+      #3.file
+      #4.prompt
+      #5.play
+      #6.inventory
+
