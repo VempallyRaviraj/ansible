@@ -1,0 +1,11 @@
+- name: demo on variables
+  hosts: local
+  connection: local
+  vars:
+    course: "ansible"
+    trainer: "sivakumar reddy"
+    duration: 120hours
+  tasks:
+  - name: print the sentence using variables
+    debug:
+      msg: "Hello World, I am learning {{ course }} from {{ trainer }} for {{ duration }}." 
