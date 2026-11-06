@@ -1,5 +1,5 @@
 - name: demo on fliters
-  hosts: hosts
+  hosts: local
   connections: local
   tasks:
   - name : print the message
