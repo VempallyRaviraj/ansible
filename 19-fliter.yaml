@@ -1,0 +1,7 @@
+- name: demo on fliters
+  hosts: hosts
+  connections: local
+  tasks:
+  -name : print the message
+   debug:
+     msg: "{{ person_name | default('Ramesh') }}"
