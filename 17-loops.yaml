@@ -1,15 +1,15 @@
 - name: install packages 
   hosts: local
   connection: local
-  become : yes
+  become : true
   vars:
     packages:
-      - git
-      - nginx
-      - mysql
+    - git
+    - nginx
+    - mysql
   tasks:
   - name: install the packages
     package:
       name: "{{ item }}"
       state: present
-    loop: packages
+    loop: "{{ packages }}"
