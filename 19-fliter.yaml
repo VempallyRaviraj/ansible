@@ -3,6 +3,10 @@
   connection: local
   vars:
     topics: "ansible, devops, linux, shell"
+    names:
+      - RAVI
+      - RAJ
+      - VEMPALLY
   tasks:
   - name : print the message
     debug:
@@ -11,3 +15,7 @@
   - name : convert the string to list
     debug:
       msg: "topics are:{{ topics | split(',') }}"
+
+  - name : convert the list to string
+    debug:
+      msg: "fullname : {{ names | join }}"
