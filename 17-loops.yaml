@@ -4,9 +4,9 @@
   become : yes
   vars:
     packages:
-      -git
-      -nginx
-      -mysql
+      - git
+      - nginx
+      - mysql
   tasks:
   - name: install the packages
     package:
