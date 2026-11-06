@@ -10,4 +10,4 @@
 
   - name : convert the string to list
     debug:
-      msg: "{{ topics | split(',') }}"
+      msg: "topics are:{{ topics | split(',') }}"
