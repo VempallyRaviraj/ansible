@@ -3,7 +3,7 @@
   connection: local
   vars:
     course: "AIOPS with devsecops on aAWS" #string
-    duration_in_hrs: "150" #number
+    duration_in_hrs: 150 #number
     is_live_session: true #boolean
     topics: #list
       - Linux
