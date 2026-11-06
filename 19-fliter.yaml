@@ -1,6 +1,6 @@
-- name: demo on fliters
+- name : demo on fliters
   hosts: local
-  connections: local
+  connection: local
   tasks:
   - name : print the message
     debug:
