@@ -2,6 +2,6 @@
   hosts: hosts
   connections: local
   tasks:
-  -name : print the message
-   debug:
-     msg: "{{ person_name | default('Ramesh') }}"
+  - name : print the message
+    debug:
+      msg: "{{ person_name | default('Ramesh') }}"
