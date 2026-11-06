@@ -7,9 +7,9 @@
     is_live_session: true #boolean
     topics: #list
       - Linux
-      -shell
+      - shell
       - ansible
-      -terraform
+      - terraform
     more_details: #dictionary
       trainer: "Sivakumar Reddy"
       months: 4
