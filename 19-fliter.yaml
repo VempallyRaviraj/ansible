@@ -7,6 +7,7 @@
       - RAVI
       - RAJ
       - VEMPALLY
+    topic : ANSIBLE
   tasks:
   - name : print the message
     debug:
@@ -19,3 +20,7 @@
   - name : convert the list to string
     debug:
       msg: "fullname : {{ names | join }}"
+
+  - name : CONVERT TO LOWERCASE
+    debug:
+      msg: "names are:{{ topics | lower}}"
