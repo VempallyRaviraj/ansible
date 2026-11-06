@@ -1,18 +1,18 @@
-- name: variables from files
-  hosts: local
-  connection: local
-  vars:
-    course: "ansible from play"
-  vars_prompt:
-  - name: course
-    prompt: please enter your trainer name
-    private: false
-  vars_files:
-    - course.yaml
-  tasks:
-  - name: print course information
-    debug:
-      msg: "Hello World, I am learning {{ course }} from {{ trainer }} for {{ duration }}."
+#- name: variables from files
+ # hosts: local
+  #connection: local
+  #vars:
+   # course: "ansible from play"
+  #vars_prompt:
+  #- name: course
+   # prompt: please enter your trainer name
+   # private: false
+  #vars_files:
+   # - course.yaml
+  #tasks:
+  #- name: print course information
+   # debug:
+      #msg: "Hello World, I am learning {{ course }} from {{ trainer }} for {{ duration }}."
 
 
       #1.command line
