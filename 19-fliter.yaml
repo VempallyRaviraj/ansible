@@ -23,4 +23,4 @@
 
   - name : CONVERT TO LOWERCASE
     debug:
-      msg: "names are:{{ topics | lower}}"
+      msg: "{{ topic| lower}}"
