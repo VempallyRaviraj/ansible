@@ -15,7 +15,7 @@
       months: 4
     exact_duration: 4.5 #float
   tasks:
-  -name: print info and type
+  - name: print info and type
     debug:
       msg: |
         name: "{{ course }} : {{ course | type_debug }}"
