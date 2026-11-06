@@ -1,0 +1,12 @@
+- name: demo on loops
+  hosts: local
+  connection: local
+  tasks:
+  - name: print the loop items
+    debug:
+      msg: "{{ item }} " #item is a loop keyword
+    loop:
+      - ansible
+      - devops
+      - linux
+      - shell
