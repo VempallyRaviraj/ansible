@@ -20,4 +20,4 @@
 
   - name: print the output again
     debug: 
-       msg: "{{ files_output }}"
+      msg: "{{ files_output }}"
