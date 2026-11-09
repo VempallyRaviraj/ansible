@@ -4,6 +4,14 @@
   tasks:
   - name: check roboshop user exist or not
     command: id roboshop #linux command,when there is no ansible module exist
-    
-    
+    register: user_output
+    ignore_errors: true
+
+  - name: print the output
+    debug:
+      msg: "{{ user_output }}"    
+
+  - name: create user
+    command: useradd roboshop
+    when: user_output.rc != 0
     
