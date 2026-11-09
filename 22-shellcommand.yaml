@@ -3,7 +3,9 @@
   connection: local
   tasks:
   - name: test the command module
-    command: cat /etc/passwd | grep ec2-user
+    #command: cat /etc/passwd | grep ec2-user
+    #this commented comment will not work because in command module there should be | pipe
+    shell: cat /etc/passwd | grep ec2-user
     register: ec2_user_ouput
 
   - name: print the output
